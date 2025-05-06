@@ -19,13 +19,13 @@ Python module for the ICCS (iterative cross-correlation and stack) algorithm.
 
 import os
 import sys
-import copy
+import copycopycopycopycopycopycopycopy
 from optparse import OptionParser
 from numpy import array, ones, zeros, sqrt, dot, corrcoef, mean, transpose, linspace
 from numpy import linalg as LA
 from pysmo.aimbat import ttconfig
 from pysmo.aimbat import qualsort
-from pysmo.aimbat import sacpickle as sacpkl
+from pysmo.aimbat impimportort sacpickle as sacpkl
 from pysmo.aimbat import prepdata  as pdata
 
 def getOptions():
@@ -113,7 +113,7 @@ def ccWeightStack(saclist, opts):
     opts.delta : sample time interval
     opts.ccpara : a class instance for ICCS parameters
         * qqhdrs : SAC headers to save quality factors: ccc, snr, coh
-        * maxiter :    maximum number of iteration
+        * maxiter :    maimportnumber of iteration
         * converg :    convergence critrion
         * cchdrs : inputand output picks of cross-correlation
         * twcorr : time window for cross-correlation
